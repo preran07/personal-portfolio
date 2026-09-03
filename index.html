@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Preran — Java Developer and Full-Stack Developer. Skills, projects, and contact."
+    />
+    <title>Preran | Java Developer &amp; Full-Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- =========================
+         Header / Navigation
+         ========================= -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="Preran home">
+          <img src="assets/logo.svg" alt="" width="36" height="36" />
+          <span>Preran</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <div class="nav-backdrop" id="nav-backdrop" hidden></div>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a class="nav-link is-active" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================
+           Hero
+           ========================= -->
+      <section class="hero" id="home">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1 class="hero-name">Preran</h1>
+          <p class="hero-role"><span class="dot"></span> Full-Stack Developer</p>
+          <p class="hero-intro">
+            I build reliable web applications with modern frontend tools.
+            I care about clean code, clear user experience, and shipping work that recruiters and
+            teams can trust.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           About
+           ========================= -->
+      <section class="section about" id="about">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">About</p>
+            <h2>Who I am</h2>
+          </header>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                I’m a Java-focused full-stack developer who enjoys turning ideas into working
+                products. My learning path started with core Java, object-oriented design, and SQL,
+                then moved into HTML/CSS/JavaScript, and practical frontend
+                interfaces.
+              </p>
+              <p>
+                I’m interested in backend systems, REST APIs, and full-stack features that solve
+                real user problems. I like debugging carefully, documenting what I build, and
+                improving a project after the first version works.
+              </p>
+              <p>
+                My goal is to join an internship or entry-level engineering role where I can
+                contribute to production code, learn from experienced developers, and grow into a
+                dependable software engineer.
+              </p>
+            </div>
+
+            <aside class="about-card" aria-label="Highlights">
+              <ul class="highlight-list">
+                <li>
+                  <strong>Focus</strong>
+                  Java, full-stack web apps
+                </li>
+                <li>
+                  <strong>Approach</strong>
+                  Simple architecture, readable code, tested flows
+                </li>
+                <li>
+                  <strong>Looking for</strong>
+                  Internships and placement opportunities
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           Skills
+           ========================= -->
+      <section class="section skills" id="skills">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Skills</p>
+            <h2>What I know</h2>
+          </header>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Programming Languages</h3>
+              <ul class="skill-tags">
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>Python</li>
+              </ul>
+              <div class="skill-meters">
+                <div class="meter">
+                  <div class="meter-label"><span>Java</span><span>85%</span></div>
+                  <div class="meter-track" aria-hidden="true"><span style="--level: 85%"></span></div>
+                </div>
+                <div class="meter">
+                  <div class="meter-label"><span>JavaScript</span><span>75%</span></div>
+                  <div class="meter-track" aria-hidden="true"><span style="--level: 75%"></span></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <h3>Frontend</h3>
+              <ul class="skill-tags">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Responsive Design</li>
+                <li>React</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Backend</h3>
+              <ul class="skill-tags">
+                <li>Spring Boot</li>
+                <li>REST APIs</li>
+                <li>Node.js</li>
+                <li>OOP &amp; DSA</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Database</h3>
+              <ul class="skill-tags">
+                <li>MySQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <h3>Tools</h3>
+              <ul class="skill-tags">
+                <li>Git</li>
+                <li>GitHub</li>
+                <!-- <li>Maven</li> -->
+                <li>VS Code</li>
+                <!-- <li>Postman</li> -->
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           Projects
+           ========================= -->
+      <section class="section projects" id="projects">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Projects</p>
+            <h2>What I have built</h2>
+          </header>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-media project-media-a" aria-hidden="true"></div>
+              <div class="project-body">
+                <h3>NariShield</h3>
+                <p>
+                  A women’s safety wearable: a necklace with a discreet panic button. When the
+                  button is pressed, the system sends an emergency SMS with live latitude and
+                  longitude to pre-saved phone numbers so contacts can respond quickly.
+                </p>
+                <ul class="tech-list">
+                  <li>GPS</li>
+                  <li>SMS alerts</li>
+                  <li>IoT / hardware</li>
+                  <li>Emergency contacts</li>
+                </ul>
+                <div class="project-actions">
+                  <a class="btn btn-small btn-dark" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media project-media-b" aria-hidden="true"></div>
+              <div class="project-body">
+                <h3>Automatic Printer</h3>
+                <p>
+                  An automated printing system that starts a print job without extra manual steps.
+                  Built to reduce wait time, handle print requests more reliably, and make everyday
+                  printing simpler in a lab or office setting.
+                </p>
+                <ul class="tech-list">
+                  <li>Automation</li>
+                  <li>Hardware integration</li>
+                  <li>Print workflow</li>
+                </ul>
+                <div class="project-actions">
+                  <a class="btn btn-small btn-dark" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media project-media-c" aria-hidden="true"></div>
+              <div class="project-body">
+                <h3>Todo List Web App</h3>
+                <p>
+                  A browser-based todo list to add, complete, and manage daily tasks. Focused on a
+                  clean interface, quick interactions, and keeping the list available while you work.
+                </p>
+                <ul class="tech-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="project-actions">
+                  <a class="btn btn-small btn-dark" href="https://github.com/preran07/CodeOrbit_Todo-list" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  <a class="btn btn-small btn-ghost" href="https://github.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           Contact
+           ========================= -->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Contact</p>
+            <h2>How to reach me</h2>
+          </header>
+
+          <div class="contact-grid">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+                <p class="field-error" id="name-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+                <p class="field-error" id="email-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <p class="field-error" id="message-error" hidden></p>
+              </div>
+              <button class="btn btn-primary" type="submit">Send Message</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+
+            <aside class="contact-aside">
+              <p>
+                I’m open to internships, campus placements, and junior developer roles. Send a
+                message or connect on these platforms.
+              </p>
+              <ul class="social-list">
+                <li>
+                  <a href="https://github.com/preran07" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/preran-venkat-manduri-290a4231a/" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                  </a>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Preran. Built with HTML, CSS, and JavaScript.</p>
+        <a class="back-to-top" href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
