@@ -2,6 +2,10 @@
 
 A modern, responsive personal portfolio website built using HTML, CSS, and JavaScript.
 
+## Live Demo
+
+View my portfolio: https://preran07.github.io/personal-portfolio/
+
 ## About
 
 This portfolio showcases my technical skills, projects, and professional information. It is designed to provide recruiters and visitors with a simple way to learn about me and explore my work.
